@@ -7,7 +7,7 @@ A Python script to convert `.ts` video files to `.mp3` audio files, while preser
 - Converts `.ts` files to `.mp3` using `ffmpeg`.
 - Maintains the original folder structure in the output directory.
 - Adds ID3 tags to the converted MP3 files:
-  - **Author** is always set to "Helio Couto".
+  - **Author** is always set to "Autor Padrão".
   - **Album** is set based on the folder name (or "Diversos" for root directory).
   - **Title** is set to the original file name.
 - Automatically overwrites existing MP3 files.
